@@ -1,0 +1,17 @@
+package com.jaga;
+
+public class Stringrev {
+	
+	public static void main(String[] args) {
+		String a="Welcome";
+		String b="Welcome";
+		String c= new String("Welcome");
+		System.out.println(a==b);
+		System.out.println(b==c);
+		System.out.println(a==c);
+		System.out.println(a.equals(b));
+		System.out.println(a.equals(c));
+		System.out.println(a.equalsIgnoreCase(c));
+	}
+
+}
